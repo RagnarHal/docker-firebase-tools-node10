@@ -13,3 +13,5 @@ RUN npm install -g firebase-tools firebase-bolt@0.8.4
 
 # reset user back to root
 USER root
+
+ENTRYPOINT [ "/bin/bash" ]
